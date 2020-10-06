@@ -40,7 +40,22 @@
         font-size: 3.5rem;
     }
 }
-  
+  .summerBg{
+    padding-top: 7rem;
+    padding-bottom: calc(6rem - 72px);
+    background: url(../images/summer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .contactBg{
+    background:linear-gradient(0deg, rgb(35 122 156 / 67%), rgb(0 51 99)), url(../images/contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
   .carousel {
